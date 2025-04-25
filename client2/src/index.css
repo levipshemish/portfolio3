@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import "tailwindcss";
+
+.text-hollow {
+    color: transparent;
+    -webkit-text-stroke: 1.3px black;
+    transition: all 0.3s ease;
+  }
+
+  .text-hollow-hover:hover {
+    color: #FED766;
+  }
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-londrina-outline {
+    font-family: "Londrina Outline", sans-serif;
+  }
+
+  .font-raleway {
+    font-family: "Raleway", sans-serif;
+  }
