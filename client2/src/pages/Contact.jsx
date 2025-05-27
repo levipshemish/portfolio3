@@ -1,5 +1,5 @@
 // import { useState } from "react"
-import BALLONSIMAGE from '/Users/levipshemish/Desktop/levi-portfolio/client2/src/images/ballons.png'
+import BALLONSIMAGE from '../images/ballons.png'
 import { useNav } from "../NavContext"
 import Swal from 'sweetalert2'
 import { useEffect, useState } from 'react';
@@ -98,7 +98,7 @@ export default function Contact() {
             <div className='flex  justify-between'>
                 <div className='flex flex-col  mt-10 h-[500px] w-120'>
                   <div className='pt-12 text-[#30343F] text-5xl'>
-                    Let's connect
+                    Let's connect.
                   </div>
                   <div className='pt-4 text-2xl text-[#30343F]'>
                     If you want to know more about me or my work, or if you would just like to say hello, send me a message. I'd love to hear from you.

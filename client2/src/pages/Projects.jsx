@@ -3,11 +3,11 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaStripe } from "react-icons/fa6";
-import ECOMMERCEIMAGE from '/Users/levipshemish/Desktop/levi-portfolio/client2/src/images/download (8).jpeg'
-import YOUTUBEIMAGE from '/Users/levipshemish/Desktop/levi-portfolio/client2/src/images/youtube_logo_4.png'
-import WORDLEIMAGE from '/Users/levipshemish/Desktop/levi-portfolio/client2/src/images/wordle_image2.jpg'
-import AIRBNBIMAGE from '/Users/levipshemish/Desktop/levi-portfolio/client2/src/images/airbnb.png'
-import CHESSPIECE from '/Users/levipshemish/Desktop/levi-portfolio/client2/src/images/horse.png'
+import ECOMMERCEIMAGE from '../images/download (8).jpeg'
+import YOUTUBEIMAGE from '../images/youtube_logo_4.png'
+import WORDLEIMAGE from '../images/wordle_image2.jpg'
+import AIRBNBIMAGE from '../images/airbnb.png'
+import CHESSPIECE from '../images/horse.png'
 import { useNav } from "../NavContext"
 import VisitSite from "./VisitSite";
 import GithubButton from "./GithubButton";
