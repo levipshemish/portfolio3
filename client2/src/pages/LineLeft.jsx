@@ -44,7 +44,7 @@ export default function LeftLine() {
   }, []);
 
   return (
-    <div className="fixed bottom-10 left-10 flex flex-col items-center space-y-4 z-50">
+    <div className="fixed bottom-10 left-10 hidden lg:flex flex-col items-center space-y-4 z-50">
       <div className="flex flex-col items-center gap-5 text-2xl" style={{ color: iconColor }}>
         <a
           href="https://linkedin.com/in/levipshemish"

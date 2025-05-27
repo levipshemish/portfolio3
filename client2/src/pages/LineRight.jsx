@@ -46,10 +46,11 @@ export default function LineRight() {
 
 
   return (
+    <div>
     <div
       onClick={handleCopy}
       ref={lineRef}
-      className="fixed bottom-10 right-10 flex flex-col items-center z-50"
+      className="fixed bottom-8 right-10 hidden lg:flex flex-col items-center z-50 "
     >
      <span className="mb-4 text-sm text-blue-500 ">{copied && "Copied!"}</span>
 
@@ -68,6 +69,7 @@ export default function LineRight() {
           }`}
         />
       </div>
+    </div>
     </div>
   );
 }

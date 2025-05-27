@@ -10,7 +10,7 @@ export default function Experience() {
       
         <div onClick={closeNav} id="experience" className="bg-[#1E2749] w-[80vw] mx-auto h-screen">
             <h1 className="text-white font-raleway text-5xl mb-3 py-5">Experience.</h1>
-            <div className="text-white flex flex-col gap-3 py-[20px] px-[20px] bg-[#25315b] rounded-md w-[80vw] mx-auto h-75 border border-[#8892B0]">
+            <div className="text-white flex flex-col gap-3 py-[20px] px-[20px] bg-[#25315b] rounded-md w-[80vw] mx-auto lg:h-75 h-85 border border-[#8892B0]">
                 <div className="text-[24px] font-roboto text-[#D1D1D1]">Fullstack Engineer <span className="text-[18px] text-[#FED766]">@ShoreStone Insurance</span></div>
                 <div className="text-[18px] font-roboto text-[#D1D1D1]">
                     August 2024 — Current
