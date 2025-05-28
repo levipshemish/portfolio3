@@ -19,7 +19,7 @@ const projects = [
       "A full-stack eCommerce app with Stripe payments and admin dashboard for managing products.",
     image: ECOMMERCEIMAGE,
     site: "https://eco-front1.vercel.app/",
-    github: "https://github.com/levipshemish/ecommerce",
+    github: "https://github.com/levipshemish/eco3",
     tech: [FaReact, RiTailwindCssFill, SiMongodb, RiNextjsFill, FaStripe],
     big: true,
   },
