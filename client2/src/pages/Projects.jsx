@@ -43,8 +43,8 @@ const projects = [
     title: "Chess App",
     description: "Play chess with a sleek UI and challenging logic.",
     image: CHESSPIECE,
-    site: "https://linkedin.com/in/levipshemish",
-    github: "https://github.com/levipshemish",
+    site: "https://chess-tau-jet.vercel.app/",
+    github: "https://github.com/levipshemish/chess",
     tech: [FaReact, RiTailwindCssFill],
   },
   {
