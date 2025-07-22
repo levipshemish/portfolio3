@@ -48,12 +48,12 @@ const projects = [
     tech: [FaReact, RiTailwindCssFill],
   },
   {
-    title: "Airbnb Clone (In Beta)",
+    title: "Airbnb Clone",
     description:
       "Browse, book, and host properties. Includes full CRUD, auth, and dashboard.",
     image: AIRBNBIMAGE,
-    site: "https://linkedin.com/in/levipshemish",
-    github: "https://github.com/levipshemish/airbnb-clone",
+    site: "https://airbnb4.vercel.app/",
+    github: "https://github.com/levipshemish/airbnb4",
     tech: [FaReact, RiTailwindCssFill, SiMongodb, FaStripe],
     big: true,
   },
