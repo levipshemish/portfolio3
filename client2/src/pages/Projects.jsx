@@ -2,11 +2,12 @@ import { useEffect, useRef } from "react";
 import { useNav } from "../NavContext";
 import VisitSite from "./VisitSite";
 import GithubButton from "./GithubButton";
-import { FaReact, FaStripe } from "react-icons/fa";
-import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
+import { FaReact, FaStripe, FaNode } from "react-icons/fa";
+import { RiTailwindCssFill, RiNextjsFill, RiOpenaiFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 
 import ECOMMERCEIMAGE from '../images/download (8).jpeg';
+import AIIMAGE from '../images/ai_image.jpg'
 import YOUTUBEIMAGE from '../images/youtube_logo_4.png';
 import WORDLEIMAGE from '../images/wordle_image2.jpg';
 import AIRBNBIMAGE from '../images/airbnb.png';
@@ -14,13 +15,23 @@ import CHESSPIECE from '../images/horse.png';
 
 const projects = [
   {
-    title: "Ecommerce Store",
+    title: "AI Chat app",
     description:
       "A full-stack eCommerce app with Stripe payments and admin dashboard for managing products.",
-    image: ECOMMERCEIMAGE,
-    site: "https://eco-front1.vercel.app/",
-    github: "https://github.com/levipshemish/eco3",
-    tech: [FaReact, RiTailwindCssFill, SiMongodb, RiNextjsFill, FaStripe],
+    image: AIIMAGE,
+    site: "https://ai-chat-ivory.vercel.app/",
+    github: "https://github.com/levipshemish/ai_chat",
+    tech: [FaReact, RiTailwindCssFill, SiMongodb, RiOpenaiFill, FaNode],
+    big: true,
+  },
+  {
+    title: "Airbnb Clone",
+    description:
+      "Browse, book, and host properties. Includes full CRUD, auth, and dashboard.",
+    image: AIRBNBIMAGE,
+    site: "https://airbnb4.vercel.app/",
+    github: "https://github.com/levipshemish/airbnb4",
+    tech: [FaReact, RiTailwindCssFill, FaNode, SiMongodb, FaStripe],
     big: true,
   },
   {
@@ -48,13 +59,13 @@ const projects = [
     tech: [FaReact, RiTailwindCssFill],
   },
   {
-    title: "Airbnb Clone",
+    title: "Ecommerce Store",
     description:
-      "Browse, book, and host properties. Includes full CRUD, auth, and dashboard.",
-    image: AIRBNBIMAGE,
-    site: "https://airbnb4.vercel.app/",
-    github: "https://github.com/levipshemish/airbnb4",
-    tech: [FaReact, RiTailwindCssFill, SiMongodb, FaStripe],
+      "A full-stack eCommerce app with Stripe payments and admin dashboard for managing products.",
+    image: ECOMMERCEIMAGE,
+    site: "https://eco-front1.vercel.app/",
+    github: "https://github.com/levipshemish/eco3",
+    tech: [FaReact, RiTailwindCssFill, FaNode, SiMongodb, RiNextjsFill, FaStripe],
     big: true,
   },
 ];
